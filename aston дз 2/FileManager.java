@@ -30,7 +30,7 @@ public class FileManager {
     
     public static void main(String[] args) {
         String filename = "example.txt";
-        String data = "Привет, мир! \n Это тестовые данные.";
+        String data = "Привет! \n Это тестовый вывод.";
         
         try {
             writeToFile(filename, data);
@@ -43,4 +43,5 @@ public class FileManager {
             e.printStackTrace();
         }
     }
+
 }
